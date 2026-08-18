@@ -8,12 +8,12 @@
 - **Case study đã chọn:** Case C — AI Support Radar
 
 ## 2. Hypothesis Problem
-- [Điền Hypothesis Problem nhóm chốt từ Chặng 1]
+- Khi hỗ trợ học tập ngoài giờ học hoặc trong các lớp học quy mô lớn/online (không thể đi vòng quanh nhìn màn hình), Lab Coach / Giảng viên gặp khó khăn trong việc phát hiện sớm những học viên đang gặp khúc mắc hoặc đuối kiến thức vì các kênh hỗ trợ hiện tại mang tính thụ động (phụ thuộc vào việc học viên chủ động hỏi) trong khi học viên có xu hướng âm thầm tự giải quyết bằng AI/ghi chú ngoài hệ thống VLearn, dẫn đến việc bỏ lỡ thời điểm vàng để hỗ trợ kịp thời, khiến học viên tích tụ hổng kiến thức và có nguy cơ tụt lại phía sau.
 
 ## 3. Three Solution Options
-- **Option A:** [Mô tả ngắn gọn]
-- **Option B:** [Mô tả ngắn gọn]
-- **Option C:** [Mô tả ngắn gọn]
+- **Option A:** **Confidence Self-Declaration:** Học viên tự đánh giá độ tự tin qua các checkpoint khái niệm chốt ở cuối mỗi module để chủ động yêu cầu hỗ trợ, không sử dụng AI suy luận. (Phụ trách chính: Lương Thanh Trang)
+- **Option B:** **AI Diagnostic Quizzing:** AI theo dõi telemetry thô (dwell time), kích hoạt micro-quiz 1 câu hỏi tại slide để chẩn đoán trực tiếp và báo cáo kết quả sai vào Queue của Coach. (Phụ trách chính: Đào Ngọc Bích)
+- **Option C:** **AI Tutoring & Warm Handover:** AI Tutor chủ động chat kèm cặp học viên khi phát hiện bất thường, tự động tóm tắt hiểu lầm và chuyển giao (escalate) ngữ cảnh hội thoại kèm bản nháp câu trả lời cho Coach khi hội thoại đi vào bế tắc. (Phụ trách chính: Đặng Thái Nam Sơn)
 - **Link Prototype:** [03-prototypes/prototype-link.md](03-prototypes/prototype-link.md)
 
 ## 4. Đóng góp của tôi trong nhóm
