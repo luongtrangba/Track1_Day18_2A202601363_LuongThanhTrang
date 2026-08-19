@@ -52,8 +52,9 @@ Cả ba Option đều chia sẻ **70% giao diện chung (Common Context)** để
 #### 🏷️ Option B: AI-Triggered Diagnostic Micro-Quizzes
 * **Màn hình 1 (Slide học & AI Trigger Quiz):**
   * Học viên dừng ở slide 14 lâu (mô phỏng dwell time lâu).
-  * Một banner trượt vào góc phải slide: *"Bạn đã dừng ở slide này khá lâu, hãy thử sức nhanh bằng 1 câu hỏi để củng cố kiến thức nhé?"* kèm 2 nút: `[ Làm Quiz nhanh ]` và `[ Bỏ qua ]` (Nút Control/Recovery).
-  * *Hành động của tester:* Bấm `[ Làm Quiz nhanh ]`.
+  * Banner quiz **không** bật ngay khi dwell time vượt ngưỡng — hệ thống chờ đến đúng lúc học viên bấm **Enter** (nút chuyển tiếp) để sang mục lớn nội dung kế tiếp mới hiện banner, tránh cắt ngang lúc đang đọc.
+  * Khi tester bấm Enter, một banner trượt vào góc phải slide: *"Bạn đã dừng ở slide này khá lâu, hãy thử sức nhanh bằng 1 câu hỏi để củng cố kiến thức nhé?"* kèm 2 nút: `[ Làm Quiz nhanh ]` và `[ Bỏ qua ]` (Nút Control/Recovery).
+  * *Hành động của tester:* Bấm Enter để chuyển mục, banner hiện ra, bấm `[ Làm Quiz nhanh ]`.
 * **Màn hình 2 (Nội dung Micro-Quiz chẩn đoán):**
   * Câu hỏi trắc nghiệm: *"Kết quả in ra của đoạn code `for i in range(2, 6): print(i)` là gì?"*
   * Các phương án lựa chọn:

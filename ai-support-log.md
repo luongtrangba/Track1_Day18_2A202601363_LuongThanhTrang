@@ -1,4 +1,4 @@
-# Nhật ký cá nhân về AI Support (Day 18)
+# AI Support Log
 
 - **Công việc AI đã hỗ trợ tốt:**
   - Hỗ trợ phân tích sâu và hệ thống hóa dữ liệu nghiên cứu người dùng (học viên U1/U4, coach U2/U3) của Day 17 để củng cố Hypothesis Problem.
@@ -11,4 +11,3 @@
   - Chủ động đưa thêm cơ chế trắc nghiệm chẩn đoán nhanh (Diagnostic Micro-Quizzes ở Option B) để triệt tiêu độ bất định của telemetry thô.
   - Ở Option C, thiết kế cơ chế chuyển giao (escalate) thông minh khi AI chat đi vào bế tắc bằng cách tự tóm tắt lỗi sai khái niệm và soạn sẵn bản nháp phản hồi cho Coach, tránh việc đẩy chat log thô gây quá tải thông tin cho Coach.
   - Diễn đạt chính xác phần kiểm tra khoảng cách (Distance check) bám sát bản chất cơ chế hoạt động mà hoàn toàn không nhắc tới màu sắc, giao diện hay câu chữ (UI/wording).
-

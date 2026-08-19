@@ -93,6 +93,9 @@ Dưới đây là danh sách chi tiết các User Stories được phân nhóm t
   * **Then (Kết quả):** Một banner trượt xuất hiện ở góc slide thông báo: *"Bạn đã dừng ở slide này khá lâu, hãy thử sức nhanh bằng 1 câu hỏi để củng cố kiến thức nhé?"* kèm 2 nút: `[ Làm Quiz nhanh ]` và `[ Bỏ qua ]`.
   * **Given (Bối cảnh loại trừ):** Học viên đang dừng lâu ở một slide **không phải checkpoint**.
   * **Then (Kết quả):** Hệ thống không kích hoạt banner quiz, kể cả khi dwell time vượt ngưỡng — tránh gây gián đoạn liên tục khi học viên chỉ đang đọc/nghe giảng bình thường (feedback tester: hiện quiz ở mọi slide gây phiền).
+  * **Given (Bối cảnh thời điểm hiển thị):** Điều kiện dwell time > 5 phút ở slide checkpoint đã thỏa mãn.
+  * **When (Hành động):** Học viên nhấn **Enter** (hoặc nút chuyển tiếp) để chuyển sang mục lớn nội dung tiếp theo.
+  * **Then (Kết quả):** Banner quiz chỉ xuất hiện đúng tại thời điểm chuyển mục này, không tự bật ngay giữa lúc học viên còn đang đọc slide hiện tại — tránh cắt ngang mạch đọc.
 
 #### 🏷️ US-3.2: Học viên làm Quiz chẩn đoán và nhận phản hồi trực tiếp
 * **Là** Học viên,
