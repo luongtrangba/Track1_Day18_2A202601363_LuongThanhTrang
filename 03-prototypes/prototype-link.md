@@ -1,7 +1,7 @@
 # Chặng 4: Three Micro-prototypes & Specifications
 
 ## 1. Danh sách Link Prototype (Nhóm điền sau khi thiết kế xong)
-* **Option A:** [prototype-A](https://www.figma.com/make/29NneLfyQsCqNtj91bZqVn/Sleep-Monitoring-App?t=DQZ3RXS4SijDtnzu-1)(Phụ trách chính: Lương Thanh Trang)
+* **Option A:** [prototype-A](https://coat-snake-65740622.figma.site/)(Phụ trách chính: Lương Thanh Trang)
 * **Option B:** [Link Figma/V0/Code] (Phụ trách chính: Đào Ngọc Bích)
 * **Option C:** [Link Figma/V0/Code] (Phụ trách chính: Đặng Thái Nam Sơn)
 
